@@ -14,7 +14,7 @@ Welcome to the AI Study Material Generator, a cutting-edge SaaS application desi
   - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-
+- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -145,7 +145,8 @@ Before starting, ensure you have the following installed:
 
 ---
 
-
+## 📜 License
+Distributed under the MIT License. See LICENSE for more details.
 
 ## 📞 Contact
 Project Maintainer:
