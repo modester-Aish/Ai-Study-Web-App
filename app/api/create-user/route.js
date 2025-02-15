@@ -6,8 +6,8 @@ export async function POST(req) {
   const result = await inngest.send({
     name: "user.create",
     data: {
-      user: user,
+      user:user,
     },
   });
-  return NextResponse.json({ result });
+  return NextResponse.json({ result:result });
 }

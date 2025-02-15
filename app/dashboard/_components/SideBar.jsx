@@ -20,11 +20,11 @@ function SideBar() {
       icon: Shield,
       path: "/dashboard/upgrade",
     },
-    {
-      name: "Profile",
-      icon: UserCircle,
-      path: "/dashboard/profile",
-    },
+    // {
+    //   name: "Profile",
+    //   icon: UserCircle,
+    //   path: "/dashboard/profile",
+    // },
   ];
 
   const { totalCourse, setTotlaCourse } = useContext(CourseCountContext);
@@ -33,7 +33,7 @@ function SideBar() {
     <div className="h-screen shadow-md p-5">
       <div className="flex gap-2 items-center">
         <Image src={"/logo.svg"} alt="logo" width={40} height={40} />
-        <h2 className="font-bold text-2xl">StudyGenie </h2>
+        <h2 className="font-bold text-2xl">Lernify AI</h2>
       </div>
 
       <div className="mt-10">

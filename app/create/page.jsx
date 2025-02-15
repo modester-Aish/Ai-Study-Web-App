@@ -63,7 +63,6 @@ function CreateCourse() {
           />
         )}
       </div>
-
       <div className="flex justify-between w-[60%] mt-32">
         {step != 0 ? (
           <Button variant="outline" onClick={() => setStep(0)}>
