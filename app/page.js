@@ -10,7 +10,7 @@ const LandingPage = () => {
       <nav className="flex items-center justify-between p-4 border-b">
         <div className="flex items-center space-x-2">
           <Image src={"/logo.svg"} alt="logo" width={40} height={40} />
-          <span className="text-xl md:text-2xl font-bold">Study Genie</span>
+          <span className="text-xl md:text-2xl font-bold">Study Genie AI</span>
         </div>
         <div className="flex items-center space-x-2 md:space-x-4">
           <Link href="/dashboard">
@@ -57,20 +57,25 @@ const LandingPage = () => {
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold">
                 <div className="flex flex-wrap justify-center whitespace-normal md:whitespace-nowrap">
                   <span className="text-black">AI-Powered </span>
-                  <span className="text-blue-600">Exam Prep</span>
+                  <span className="text-blue-600">Exam Prep & Interviews</span>
                 </div>
                 <div className="mt-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
                   Material Generator
                 </div>
               </h1>
               <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-xl px-4">
-                Your AI Exam Prep Companion: Effortless Study Material at Your
-                Fingertips
+              Your Ultimate AI Companion for Exam Preparation and Mock Interviews – Effortless Learning and Practice at Your Fingertips!
               </p>
-              <div className="flex justify-center mt-6 md:mt-8">
+              <div className="flex justify-center mt-6 md:mt-8 gap-5">
                 <Link href="/dashboard">
                   <button className="px-6 md:px-8 py-3 md:py-4 bg-blue-600 text-white rounded-lg flex items-center space-x-2 hover:bg-blue-700 font-semibold text-base md:text-xl">
-                    <span>Get Started</span>
+                    <span>Start AI EXAM PREP</span>
+                    <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
+                  </button>
+                </Link>
+                <Link href="https://ai-interview-mocker-six-phi.vercel.app/">
+                  <button className="px-6 md:px-8 py-3 md:py-4 bg-blue-600 text-white rounded-lg flex items-center space-x-2 hover:bg-blue-700 font-semibold text-base md:text-xl">
+                    <span>Start Mock AI Interview</span>
                     <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
                   </button>
                 </Link>
