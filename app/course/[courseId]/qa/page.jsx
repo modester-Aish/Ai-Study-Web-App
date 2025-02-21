@@ -4,6 +4,7 @@ import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import StepProgress from "../components/StepProgress";
 import { toast } from "sonner";
+import Chatbot from "@/components/ui/Chatbot";
 
 function QnAPage() {
   const { courseId } = useParams();
@@ -86,6 +87,8 @@ function QnAPage() {
           No Q&A data available for this course.
         </div>
       )}
+       {/* 🔹 Chatbot Button Show Hoga */}
+       <Chatbot />
     </div>
   );
 }

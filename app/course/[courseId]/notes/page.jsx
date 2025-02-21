@@ -144,6 +144,7 @@
 // export default ViewNotes;
 "use client";
 import { Button } from "@/components/ui/button";
+import Chatbot from "@/components/ui/Chatbot";
 import axios from "axios";
 import { useParams, useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
@@ -250,6 +251,8 @@ function ViewNotes() {
           </div>
         )}
       </div>
+       {/* 🔹 Chatbot Button Show Hoga */}
+       <Chatbot />
     </div>
   ) : (
     <div>No notes available</div>

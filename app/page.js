@@ -79,6 +79,12 @@ const LandingPage = () => {
                     <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
                   </button>
                 </Link>
+                <Link href="https://ai-chatbot-jade-gamma.vercel.app/">
+                  <button className="px-6 md:px-8 py-3 md:py-4 bg-blue-600 text-white rounded-lg flex items-center space-x-2 hover:bg-blue-700 font-semibold text-base md:text-xl">
+                    <span>Start AI CHATBOT</span>
+                    <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

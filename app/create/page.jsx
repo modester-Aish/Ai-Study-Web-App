@@ -8,6 +8,7 @@ import { v4 as uuidv4 } from "uuid";
 import { useUser } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
+import Chatbot from "@/components/ui/Chatbot";
 
 function CreateCourse() {
   const [step, setStep] = useState(0);
@@ -77,6 +78,8 @@ function CreateCourse() {
           <Button onClick={GenerateCourseOutline}>Generate</Button>
         )}
       </div>
+       {/* 🔹 Chatbot Button Show Hoga */}
+       <Chatbot />
     </div>
   );
 }

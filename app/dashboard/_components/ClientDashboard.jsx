@@ -5,6 +5,7 @@ import WelcomeBanner from "./WelcomeBanner";
 import CourseList from "./CourseList";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Chatbot from "@/components/ui/Chatbot";
 
 function ClientDashboard() {
   return (
@@ -19,6 +20,8 @@ function ClientDashboard() {
         </Link>
       </div>
       <CourseList />
+       {/* 🔹 Chatbot Button Show Hoga */}
+       <Chatbot />
     </div>
   );
 }

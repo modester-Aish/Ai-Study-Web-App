@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/carousel";
 import { ClipLoader } from "react-spinners"; // Import the ClipLoader spinner
 import { toast } from "sonner"; // Import the toast function
+import Chatbot from "@/components/ui/Chatbot";
 
 function Flashcards() {
   const { courseId } = useParams();
@@ -92,6 +93,8 @@ function Flashcards() {
           <CarouselPrevious />
         </Carousel>
       </div>
+       {/* 🔹 Chatbot Button Show Hoga */}
+       <Chatbot />
     </div>
   );
 }

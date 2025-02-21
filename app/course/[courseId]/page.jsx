@@ -6,6 +6,7 @@ import React, { useEffect, useState } from "react";
 import CourseIntroCard from "./components/CourseIntroCard";
 import StudyMaterialSection from "./components/StudyMaterialSection";
 import ChapterList from "./components/ChapterList";
+import Chatbot from "@/components/ui/Chatbot";
 
 function Course() {
   const { courseId } = useParams();
@@ -29,6 +30,8 @@ function Course() {
         {/* Chapter List */}
         <ChapterList course={course} />
       </div>
+       {/* 🔹 Chatbot Button Show Hoga */}
+       <Chatbot />
     </div>
   );
 }
