@@ -66,7 +66,7 @@ const LandingPage = () => {
               <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-xl px-4">
               Your Ultimate AI Companion for Exam Preparation and Mock Interviews – Effortless Learning and Practice at Your Fingertips!
               </p>
-              <div className="flex justify-center mt-6 md:mt-8 gap-5">
+              <div className="flex justify-center mt-6 md:mt-8 gap-3">
                 <Link href="/dashboard">
                   <button className="px-6 md:px-8 py-3 md:py-4 bg-blue-600 text-white rounded-lg flex items-center space-x-2 hover:bg-blue-700 font-semibold text-base md:text-xl">
                     <span>AI EXAM PREP</span>
