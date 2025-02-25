@@ -68,19 +68,19 @@ const LandingPage = () => {
               </p>
               <div className="flex justify-center mt-6 md:mt-8 gap-3">
                 <Link href="/dashboard">
-                  <button className="px-6 md:px-8 py-3 md:py-4 bg-blue-600 text-white rounded-lg flex items-center space-x-2 hover:bg-blue-700 font-semibold text-base md:text-xl">
+                  <button className="px-4 md:px-8 py-3 md:py-4 bg-blue-600 text-white rounded-lg flex items-center space-x-2 hover:bg-blue-700 font-semibold text-base md:text-xl">
                     <span>AI EXAM PREP</span>
                     <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
                   </button>
                 </Link>
                 <Link href="https://ai-interview-mocker-six-phi.vercel.app/">
-                  <button className="px-6 md:px-8 py-3 md:py-4 bg-blue-600 text-white rounded-lg flex items-center space-x-2 hover:bg-blue-700 font-semibold text-base md:text-xl">
+                  <button className="px-4 md:px-8 py-3 md:py-4 bg-blue-600 text-white rounded-lg flex items-center space-x-2 hover:bg-blue-700 font-semibold text-base md:text-xl">
                     <span>Mock AI Interview</span>
                     <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
                   </button>
                 </Link>
                 <Link href="https://ai-chatbot-jade-gamma.vercel.app/">
-                  <button className="px-6 md:px-8 py-3 md:py-4 bg-blue-600 text-white rounded-lg flex items-center space-x-2 hover:bg-blue-700 font-semibold text-base md:text-xl">
+                  <button className="px-4 md:px-8 py-3 md:py-4 bg-blue-600 text-white rounded-lg flex items-center space-x-2 hover:bg-blue-700 font-semibold text-base md:text-xl">
                     <span>AI CHATBOT</span>
                     <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
                   </button>
