@@ -57,25 +57,19 @@ const LandingPage = () => {
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold">
                 <div className="flex flex-wrap justify-center whitespace-normal md:whitespace-nowrap">
                   <span className="text-black">AI-Powered </span>
-                  <span className="text-blue-600">Exam Prep & Interviews</span>
+                  <span className="text-blue-600">Exam Prep</span>
                 </div>
                 <div className="mt-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
                   Material Generator
                 </div>
               </h1>
               <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-xl px-4">
-              Your Ultimate AI Companion for Exam Preparation and Mock Interviews – Effortless Learning and Practice at Your Fingertips!
+              Your Ultimate AI Companion for Exam Preparation – Effortless Learning and Practice at Your Fingertips!
               </p>
               <div className="flex justify-center mt-6 md:mt-8 gap-3">
                 <Link href="/dashboard">
                   <button className="px-4 md:px-8 py-3 md:py-4 bg-blue-600 text-white rounded-lg flex items-center space-x-2 hover:bg-blue-700 font-semibold text-base md:text-xl">
                     <span>AI EXAM PREP</span>
-                    <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
-                  </button>
-                </Link>
-                <Link href="https://ai-interview-mocker-six-phi.vercel.app/">
-                  <button className="px-4 md:px-8 py-3 md:py-4 bg-blue-600 text-white rounded-lg flex items-center space-x-2 hover:bg-blue-700 font-semibold text-base md:text-xl">
-                    <span>Mock AI Interview</span>
                     <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
                   </button>
                 </Link>
@@ -98,7 +92,7 @@ const LandingPage = () => {
 
       {/* Footer */}
       <footer className="text-center py-4 md:py-6 text-gray-600 text-sm md:text-base">
-        Made with ❤️ by Aish
+        Made with ❤️ by Ayesha Asghar
       </footer>
     </div>
   );
